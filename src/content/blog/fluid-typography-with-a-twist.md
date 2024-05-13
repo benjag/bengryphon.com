@@ -13,7 +13,7 @@ description: Shaken, not stirred
 
 _Shaken, not stirred_
 
-Fluid typography is not a new concept, but it's only recently the browser support has gotten to a place where we feel can release it. At its core, it's simple math, but it's incredibly powerful in what it unlocks.
+Fluid typography is not a new concept, but it's only recently the browser support has gotten to a place where the implementation is pretty seamless. At its core, it's simple math, but it's incredibly powerful in what it unlocks.
 
 Fluid typography is based on the slope of a line between two points (remember your `y = mx + b` from geometry?). In this case, our points are the minimum and maximum font-size of our type. Calculating the slope of the line when accounting for screen sizes is a little tricky, but here's a [great article from Smashing Magazine](https://www.smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/) that goes through the math.
 

@@ -107,7 +107,7 @@ With [Cedar 15](https://cedar.rei.com/whats-new/releases/cedar-15), we're introd
 
 Given the same scenario as above, here's all you need to do to achieve a better and more efficient result
 
-![A mock up of an hero component using an atomic title component](/src/assets/images/posts/use-cdr-title.png)
+![A mock up of an hero component using an atomic title component](/assets/use-cdr-title.png)
 
 That's it, no duplicative versions to showcase changes across breakpoints, no time-consuming notation necessary in order to communicate how the style should change as the screen does. The fluid and atomic foundation built in to our atomic content components handles those repetitive design decisions for you.
 
