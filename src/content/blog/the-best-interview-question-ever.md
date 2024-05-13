@@ -15,8 +15,6 @@ description: Or, are you smarter than a preschooler?
   <img src="/assets/airbag-warning.jpg" class="w-full h-60 object-cover border-radius" alt="Airbag warning label on sun visor">
 </div>
 
-## WARNING DEATH OR SERIOUS INJURY CAN OCCUR
-
 I was driving my daughter to preschool the other day when she piped up from the back seat:
 
 > Dada, what does that sign mean?
