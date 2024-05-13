@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Ben Griffin",
   desc: "Ben Griffin is front end software engineer based in Portland, OR.",
   title: "bengryphon.com",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "og.png",
   lightAndDarkMode: false,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes

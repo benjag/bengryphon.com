@@ -12,7 +12,7 @@ description: Or, are you smarter than a preschooler?
 ---
 
 <div>
-  <img src="/src/assets/images/posts/airbag-warning.jpg" class="w-full h-60 object-cover border-radius" alt="Airbag warning label on sun visor">
+  <img src="/assets/airbag-warning.jpg" class="w-full h-60 object-cover border-radius" alt="Airbag warning label on sun visor">
 </div>
 
 ## WARNING DEATH OR SERIOUS INJURY CAN OCCUR

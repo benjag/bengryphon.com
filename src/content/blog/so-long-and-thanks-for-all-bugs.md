@@ -14,7 +14,7 @@ description: Paying tribute to a storied browser through the art of haiku.
 
 > This post was originally published on [REI's engineering blog](https://engineering.rei.com/culture/so-long-and-thanks-for-all-the-bugs.html)
 
-![A really beautiful MS paint drawing of a gravestone in a grass field. The gravestone reads, R.I.P. I.E.](/src/assets/images/posts/ie-banner.png)
+![A really beautiful MS paint drawing of a gravestone in a grass field. The gravestone reads, R.I.P. I.E.](/assets/ie-banner.png)
 
 _Paying tribute to a storied browser through the art of haiku._
 
@@ -116,4 +116,4 @@ Dev: “Finally got that layout all figured out for the launch on Monday! Let me
 
 “Some cause happiness wherever they go; others whenever they go” – Oscar Wilde
 
-![A really beautiful MS paint drawing of a bug crawling on an internet explorer logo](/src/assets/images/posts/ie-bug.png)
+![A really beautiful MS paint drawing of a bug crawling on an internet explorer logo](/assets/ie-bug.png)
