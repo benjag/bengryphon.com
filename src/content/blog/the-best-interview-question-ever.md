@@ -6,6 +6,7 @@ title: The best interview question ever
 slug: the-best-interview-question-ever
 featured: true
 draft: false
+ogImage: /assets/og.png
 tags:
   - musings
 description: Or, are you smarter than a preschooler?
