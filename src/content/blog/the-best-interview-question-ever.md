@@ -24,7 +24,7 @@ I glanced back and realized she was pointing at the airbag warning sticker on th
 
 > Well honey, that sign is telling us that this car has airbags.
 
-> What are airbags?
+> What do airbags do?
 
 Oof, how do I explain airbags to a 3-year-old without scarring her for life? Getting her in the car in the morning is hard enough without the added terror of literal, explosively-powered bags of hot gas bursting out of the walls (we're only just getting over the balloon incident).
 
