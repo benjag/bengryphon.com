@@ -4,6 +4,7 @@ pubDatetime: 2024-05-13
 modDatetime: 2024-05-13
 title: The best interview question ever
 slug: the-best-interview-question-ever
+ogImage: "og.png"
 featured: true
 draft: false
 tags:
