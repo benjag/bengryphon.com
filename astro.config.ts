@@ -16,6 +16,10 @@ export default defineConfig({
     react(),
     sitemap(),
   ],
+  output: "server",
+  adapter: vercel({
+    webAnalytics: { enabled: true },
+  }),
   markdown: {
     remarkPlugins: [
       remarkToc,
