@@ -13,7 +13,19 @@ tags:
 description: Driving efficiency in inefficient systems
 ---
 
-![A mock up of an hero component across multiple breakpoints](/assets/logo.png)
+> This post was originally published on [REI's Cedar Design System blog](https://cedar.rei.com/whats-new/blog/the-atomic-advantage)
+
+_Driving efficiency in inefficient systems_
+
+Content is more than its container—it’s information and ideas in service to its user. Instead of thinking about content in terms of web pages filled with text and components like carousels, what if we separate the info from its display?
+
+Let's talk about what that means for a consumer of Cedar through the lens of designer/developer hand-off.
+
+## The scenario
+
+Imagine you, a designer, are tasked with building the following layout:
+
+![A mock up of an hero component across multiple breakpoints](/assets/fluid-layout-scenario.jpg)
 
 Knowing what you know about readability and responsive design, you want the text to change style as the screen gets smaller. The image will handle itself because you are using a responsive `CdrImg`, but you choose to be more prescriptive with the text to give the best customer experience.
 
@@ -107,7 +119,7 @@ With [Cedar 15](https://cedar.rei.com/whats-new/releases/cedar-15), we're introd
 
 Given the same scenario as above, here's all you need to do to achieve a better and more efficient result
 
-![A mock up of an hero component using an atomic title component](/assets/use-cdr-title.png)
+![A mock up of an hero component using an atomic title component](/assets/use-cdr-title.jpg)
 
 That's it, no duplicative versions to showcase changes across breakpoints, no time-consuming notation necessary in order to communicate how the style should change as the screen does. The fluid and atomic foundation built in to our atomic content components handles those repetitive design decisions for you.
 
