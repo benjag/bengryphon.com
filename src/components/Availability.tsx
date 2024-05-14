@@ -1,5 +1,5 @@
-export default function Availability(isAvailable: boolean) {
-  return isAvailable ? (
+export default function Availability() {
+  return (
     <div className="flex max-w-96 items-center">
       <span className="relative flex size-3">
         <span className="absolute inline-flex size-full animate-ping rounded-full bg-green-600/80 opacity-75"></span>
@@ -9,7 +9,5 @@ export default function Availability(isAvailable: boolean) {
         Available for new opportunities
       </span>
     </div>
-  ) : (
-    ""
   );
 }
