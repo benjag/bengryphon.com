@@ -15,7 +15,7 @@ title: "Curriculum Vitae"
 
 <span id="sony" class="text-sm text-gray-300">March 2024-April 2024</span>
 
-You may not know this, but Sony has a highly successful ISP business in Japan. I was hired to lead the planning, execution, and delivery of front-end software for a bringing a new, bringing a premium fiber-to-the-home internet service to the US market.
+You may not know this, but Sony has a highly successful ISP business in Japan. I was hired to lead the planning, execution, and delivery of front-end software for a new, "premium fiber-to-the-home internet service". Can't say more per the terms of my NDA, but it was really cool! I'm bummed it was so short-lived.
 
 Unfortunately, due to changing strategy at the executive level, this project was cancelled shortly after I started. Still proud of what I was able to accomplish!
 
