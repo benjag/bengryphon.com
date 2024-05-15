@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "Work"
+title: "Curriculum Vitae"
 ---
 
 > TL;DR Just looking for a copy of my [resume](/assets/ben-griffin-resume.pdf)?
@@ -13,7 +13,7 @@ title: "Work"
 
 ### Technical Lead | Sony
 
-<span class="text-sm text-gray-300">March 2024-April 2024</span>
+<span id="sony" class="text-sm text-gray-300">March 2024-April 2024</span>
 
 You may not know this, but Sony has a highly successful ISP business in Japan. I was hired to lead the planning, execution, and delivery of front-end software for a bringing a new, bringing a premium fiber-to-the-home internet service to the US market.
 
@@ -24,7 +24,7 @@ Unfortunately, due to changing strategy at the executive level, this project was
 
 ### Senior Software Engineer, Design Systems | REI Co-op
 
-<span class="text-sm text-gray-300">July-2021 - March 2024</span>
+<span id="rei" class="text-sm text-gray-300">July-2021 - March 2024</span>
 
 After spending time as an avid consumer and contributor to REI's design system, Cedar, I was invited to join the core team to lead the next evolution of the system as we migrated all of REI Co-op to Vue 3.
 
@@ -103,11 +103,11 @@ Hybrid role in the Office of Marketing and Communications responsible for web de
   - [Search page](https://www.rei.com/newsroom/c/new-locations)
   - [Media page](https://www.rei.com/newsroom/multimedia) -->
 
-## Education
+## Education</h2>
 
 ### B.A. Integrated Media | Pacific University
 
-<span class="text-sm text-gray-300">August 2007 - May 2011</span>
+<span id="education" class="text-sm text-gray-300">August 2007 - May 2011</span>
 
 Believe it or not, I started school with the intention of being a biology major, but got the programming itch when I took a C++ course my sophomore year. At the same time, I discovered I really enjoyed classes on digital art, graphic design and photography.
 

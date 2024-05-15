@@ -37,8 +37,8 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
       <p>
         I'm a software engineer based in Portland, OR. I earned my degree in
-        Integrated Media from Pacific University in 2011 and have been working
-        in the industry ever since. I've spent time at Sony and REI Co-op and
+        <a href="/cv#education">Integrated Media</a> from Pacific University in 2011 and have been working
+        in the industry ever since. I've spent time at <a href="/cv#sony">Sony</a> and <a href="/cv#rei">REI Co-op</a> and
         like to write on engineering, design systems, or general musings on
         life.
       </p>
@@ -130,6 +130,14 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
   #hero p {
     @apply my-4;
+  }
+  #hero p a {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-underline-offset: 8px;
+  }
+  #hero p a:hover {
+    color: rgb(var(--color-accent));
   }
   .social-wrapper {
     @apply mt-4 flex flex-col sm:flex-row sm:items-center;
