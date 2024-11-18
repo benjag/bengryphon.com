@@ -49,20 +49,20 @@ Note I wrapped "sizes" in quotation marks up above. That's because this techniqu
 
 That's right, this is fluid typography ✨ _with a twist_ ✨.
 
-Traditionally, the fluid slope is created using `vw` units in order to respond across screen sizes, but we've taken this a step further with [container query units](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_container_queries#container_query_length_units). Specifically, we're using the `cqw` unit in place of `vw` so that if your fluid type is within a container, it will respond to the container's width instead. If no container is present, `cqw` becomes the equivalent of `vw`.
+Traditionally, the fluid slope is created using `vw` units in order to respond across screen sizes, but we've taken this a step further with [container query units](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_container_queries#container_query_length_units). Specifically, we're using the `cqi` unit in place of `vw` so that if your fluid type is within a container, it will respond to the container's inline-size instead. If no container is present, `cqi` becomes the equivalent of `vw`.
 
 Let's apply this twist to our scale:
 
 ```css
---type-scale--1: clamp(1.33rem, 0.29cqw + 1.24rem, 1.6rem);
---type-scale-0: clamp(1.6rem, 0.44cqw + 1.46rem, 2rem);
---type-scale-1: clamp(1.92rem, 0.64cqw + 1.72rem, 2.5rem);
---type-scale-2: clamp(2.3rem, 0.9cqw + 2.02rem, 3.13rem);
---type-scale-3: clamp(2.76rem, 1.25cqw + 2.36rem, 3.91rem);
---type-scale-4: clamp(3.32rem, 1.72cqw + 2.77rem, 4.88rem);
---type-scale-5: clamp(3.98rem, 2.33cqw + 3.24rem, 6.1rem);
---type-scale-6: clamp(4.78rem, 3.13cqw + 3.78rem, 7.63rem);
---type-scale-7: clamp(5.73rem, 4.17cqw + 4.4rem, 9.54rem);
+--type-scale--1: clamp(1.33rem, 0.29cqi + 1.24rem, 1.6rem);
+--type-scale-0: clamp(1.6rem, 0.44cqi + 1.46rem, 2rem);
+--type-scale-1: clamp(1.92rem, 0.64cqi + 1.72rem, 2.5rem);
+--type-scale-2: clamp(2.3rem, 0.9cqi + 2.02rem, 3.13rem);
+--type-scale-3: clamp(2.76rem, 1.25cqi + 2.36rem, 3.91rem);
+--type-scale-4: clamp(3.32rem, 1.72cqi + 2.77rem, 4.88rem);
+--type-scale-5: clamp(3.98rem, 2.33cqi + 3.24rem, 6.1rem);
+--type-scale-6: clamp(4.78rem, 3.13cqi + 3.78rem, 7.63rem);
+--type-scale-7: clamp(5.73rem, 4.17cqi + 4.4rem, 9.54rem);
 ```
 
 This unlocks some really amazing patterns, imagine a scenario where you have auto-flowing horizontal grid of `1..n` cards.
